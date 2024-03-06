@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anta&family=Bungee+Shade&family=Dancing+Script&family=Kode+Mono:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Pacifico&family=Poppins:wght@100&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Young+Serif&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+   
+   
+    <title>Konsantrasyon</title>
+</head>
+<body>
+    <section class="intro">
+        <div class="video-container">
+         <video class="video" src="images/vid-13.mp4" autoplay loop muted></video>
+        </div>
+        <div class="content">
+            <h1 class="odak"> Herhangi bir şeye odaklanmaya başladığınızda dikkatiniz kaç kere dağıldı?</h1>
+             <h2 class="together"> Gelin birlikte hesaplayalım.</h2>
+           <div class="nokta">
+           <p class="yazii">Çalışmaya başladığınızdan beri odak notkanız <br>
+               <span for="sayi" id="saymaNumarasi" class="degisken"> 1</span> kere
+              <br>  dağıldı.</p></div>
+              <button  class="buton btn btn-outline-secondary " id="arttirmaButonu" onclick="arttirmaButonu()">TIKLA</button>
+        
+       </div>
+       </section>
+   
+       <section>
+           <div class="my-container px-5">
+                   <div class="mcgill">
+                       <h2 class="solution">Odaklanmanıza yarayacak başlıca çözümün müzik olduğunu biliyor muydunuz?</h2>
+                       <p> Müzik insanlık tarihi boyunca hep var oldu. Geçmişten günümüze hayatımızda hep var olan müziğin insan psikolojisi üzerine etkileri hakkında birçok araştırma yapılmış ve yapılan araştırmalar göstermiş ki müzik insan zihnini rahatlatıyor. Müzik dinlemeye başladığımızda beynimizin neredeyse bütün bölümleri etkileniyor ve beyin endorfin salgılıyor.
+                      Kanada’da McGill Üniversitesi’nde yapılan araştırmaya göre özellikle sevdiğimiz bir müziği dinlemek dopamin seviyesini arttırıyor. Dopamin bilindiği üzere duygusal tepkilerin kontrolünde rol oynuyor ve kişinin zihinsel sağlığının iyi olmasında oldukça önemli.Son yıllarda müzik dinlemenin insan sağlığı için önemi oldukça fazla gündeme geldi.  Müziğin vücudun direnç sisteminde pozitif etki yarattığına dair birçok araştırma var. Müziğin etkileri beyinle de sınırlı kalmıyor. Yavaş bir müzik kan basıncını düşürüyor ve kalp hızını yavaşlatıyor. Tam tersi tempolu, hızlı müzik ise kalp atışlarının hızlanmasını sağlıyor.
+                    Müziğin verimlilik ve motivasyon açısından da pek çok olumlu etkisinin olduğunu söylemek mümkün.Müziğin etkileri ses düzeyi, tonu, türüne göre değişir. Örneğin klasik müzik, çalışırken konsantrasyon düzeyinin artmasına yardımcı olur. Sakinleştirici doğa müzikleri ise yaptığınız işe daha kolay odaklanmanızı sağlar. </p> <br>
+                   <strong>Odaklanmanızı sağlayacak müzik örneklerine aşağıdaki linklerden bakabilirsiniz.</strong> 
+                </div>   
+           </div>      
+           </div>
+       </section>
+ 
+  
+   <div class="container py-5 px-5">
+       <div class="row">
+           <div class="col-4 musics">
+            <a class="round" href="https://open.spotify.com/intl-tr/album/7taSypNhiMYS1JIaxDJ3MI" target="_blank"><img class="musics-1" src="images/Spotify_icon.svg.png" alt=""></a>
+           </div> 
+           <div class="col-4 musics">
+            <a class="round" href="https://www.iienstitu.com/blog/odaklanmanizi-saglayacak-konsantrasyon-muzikleri" target="_blank"><img class="musics-1" src="images/music-3.jpg" alt=""></a>
+           </div>
+           <div class="col-4 musics">
+            <a class="round" href="https://www.724dinle.com/duygu-durumuna-gore-muzikler/konsantrasyon/odaklanma-muzigi/calma-listesi" target="_blank"><img class="musics-1" src="images/music-4.jpg" alt=""></a>
+           </div>
+           
+       </div>
+   </div>
+   
+     
+
+   
+   
+       <section>
+       <div class="container third py-5 px-5">
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                    Odaklanma Sorunu Neden Olur?
+                </button>
+              </h2>
+              <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Dikkat dağınıklığı ve odaklanma sorunun birden fazla çevresel veya biyolojik sebebi olabilir. Bu sebeplerin farkında olmak, bu sorunu yaşayan bireylere odaklanma sorunu çözümü konusunda yardımcı olabilir. Bu sebepler şu şekilde sıralanabilir:
+              
+                    <li> Yetersiz uyku: Yetersiz uyumak, bireyde uyku eksikliğine yol açarak dikkatini, çalışma belleğini, uzun süreli belleği ve karar verme yetisini olumsuz yönde etkileyebilir. Bunlara ek olarak uyku eksikliği bireylerdeki kan basıncını ve kortizol (stres hormonu) üretimini artırabilir. Bunun sonucunda kişinin stres seviyesi artar ve bu durum dikkat dağınıklığına sebep olabilir. Bu sebeple, bir konuya verimli şekilde konsantre olabilmek için kaliteli bir uyku, önemli bir yere sahiptir.</li>
+                    <li> Vitamin eksikliği: Bazı vitamin eksiklikleri, dikkat dağınıklığı ve odaklanma sorununa sebep olabilir. Özellikle beyin fonksiyonlarında büyük rolleri olan B vitamin grubunun eksikliği odaklanma sorununun sebebi olabilir. Ayrıca C ve E vitamin eksikliği de dikkat dağınıklığına yol açabilir. </li>
+                    <li>  Anksiyete ve stres: Zaman zaman kaygı ve endişe yaşamak normal karşılanabilir. Ancak sürekli endişe veya korku halinde olmak bireyin yaşam kalitesinin düşmesine ve karar vermede zorlanmaya sebep olabilir. Sürekli kaygı hali, bireyin dikkatini kaybolmasına ve herhangi bir işe odaklanmasını zorlaştırabilir. </li>
+                    <li>Hormonal dengesizlikler: Vücutta konsantre olmaya ve odaklanmaya yardımcı olan çeşitli hormonlar vardır. Bu hormonlar progesteron ve tiroid hormonları olarak sıralanabilir. Bunlarda meydana gelen eksiklik veya dengesizlik, vücudun genel hormon dengesi bozulabilir ve sonuçta da özellikle biliş, hafıza ve vücutta gerçekleşen süreçlerde sorunlar meydana gelebilir.</li> 
+                    <li>İlaç kullanımı: Kullanılan bazı ilaçlar, beyin fonksiyonlarının çalışmasına olumsuz etki edebilir. Özellikle uyku hapları ve sakinleştiriciler bireylerde hafıza sorunları ve dikkat dağınıklığına sebep olabilir. </li>
+                    <li> Tiroid sorunları: Tiroid hormonu bireyin beyin fonksiyonlarının çalışması için önemli bir role sahiptir ve tiroid bezinde salgılanır. Ancak bu bezde meydana gelen çeşitli sorunlar, tiroid hormonu salgısının dengesini bozabilir. Bu durum, bireydeki blişsel aktivitelerin yavaşlamasına veya dikkat dağınıklığına yol açabilir.</li>
+                    <li> Fazla alkol kullanımı: Fazla alkol tüketmek, bireyin düşünme, hatırlama ve odaklanma becerilerini zayıflatarak yaşam kalitesini düşürebilir 
+                 </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                    Odaklanma Sorunu Belirtileri Nelerdir?
+                </button>
+              </h2>
+              <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Odaklanma ve dikkat dağınıklığı belirtileri, birden fazla olabilir ve bu belirtiler bireyden bireye değişiklik gösterebilir. Dikkat eksikliği belirtileri şu şekilde sıralanabilir:
+                    <ul>
+                 <li>Kısa süre önce olan şeyleri hatırlamada güçlük çekmek</li> 
+                 <li>Hareketsiz şekilde durmada zorluk çekmek</li> 
+                 <li>Düşünme ve karar vermede sıkıntı çekmek</li> 
+                 <li>Eşyaları sık sık kaybetmek ve nerede olduğunu hatırlamamak</li> 
+                 <li>  Karmaşık görevleri yerine getirmede zorluk çekmek</li> 
+                 <li>  Herhangi bir şeye odaklanmakta güçlük çekmek</li> 
+                 <li> Konsantre olmak için gerekli zihinsel veya fiziksel enerjiyi bulamamak</li> 
+                 <li>  Dikkatsiz hatalar yapmak</li> 
+                 <li>  Normal günlük aktiviteleri yerine getirmede sıkıntı yaşamak</li> 
+                 <li>  Zihin bulanıklığı </li> 
+                 <li>  Huzursuz hissetmek</li> 
+                 <li>  Önemli toplantıları ve randevuları kaçırmak</li> 
+                 <li>  Görevleri zamanında bitirememek</li> 
+                 <li>  Okumada güçlük çekmek (1, 2).</li> 
+                </ul>
+    </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                    Odaklanma Problemi Nasıl Çözülür?
+                </button>
+              </h2>
+              <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Bireyler çeşitli dikkat ve odaklanma egzersizleri yaparak bu problemi çözebilirler. Odaklanma teknikleri düzenli şekilde uygulandığı zaman bireylerin zihinsel işlevleri gelişebilir ve daha verimli olabilirler. Bu odaklanma yöntemleri, bireylerin yaşam kalitesini artırarak onlara kuvvetli bir hafıza kazandırabilir ve karar vermede kolaylık sağlayabilir. Bu yöntemler şu şekilde sıralanabilir:
+                    <br> Odaklanma sorunu yaşayanların öncelikli olarak dikkatlerini dağıtan faktörleri ortadan kaldırmaları gerekebilir. Dikkat dağıtan unsurları mümkün olduğunca ortadan kaldırmak veya uzaklaştırmak konsantre olma seviyesini artırarak daha dikkatli olmanız için faydalı olabilir. Bunun için yapılacak şeyler şu şekilde sıralanabilir:
+                  <ul>
+                   <li> Sessiz ve sakin bir alana gitmek</li> 
+                   <li>  Teknolojik aletlerden gelen sesleri azaltmak veya tamamen kapatmak</li> 
+                   <li>  Bulunduğunuz ortamı diğer dış ortamdan ayırmak için kapıyı kapatmak</li> 
+                   <li>  Çevrede bulunan bireylere dikkatinizi dağıtmamaları konusunda rica etmek</li> 
+                   <li>   Gerektiği durumlarda sakinleştirici arka fon müzikler dinlemek</li> 
+                   <li>   Çalışacağınız alanı düzenli ve tertipli tutmak</li> 
+                 </ul>
+     </div>
+              </div>
+            </div>
+          </div>
+       </section>
+   
+       
+       <section >
+         <div class="container text-center">
+               <div class="py-5 px-5">
+                   <h2 class="concentration">Konsantrasyon için Tavsiyeler</h2>
+                   <h3 class="order">1 - Çalışacağınız Ortamı Düzenli Tutun</h3>
+                   <p class="colorful">Rengârenk kalemler, bir sürü not kağıtları, dosyalar, ataçlı dosyalar, belgeler… Masanınız üzerinde fazla eşyanın bulunması odaklamaya engel olabilir. Bu yüzden çalışmaya başlamadan önce eğer varsa masanızın tozunu alın sonra üzerindeki lüzumsuz eşyaları kaldırın. Eğer ki masanın ferah bir görünüm olursa bu sizi çalışmaya da teşvik edecektir.
+                  Tabii herkesin masasındaki eşyaların simetrik bir şekilde durması gerekmiyor. Burada anlatılmak istenen çalışırken ilginin dağılacağı veya hareket etmenize engel olacak unsurları ortadan kaldırmaktır.</p>
+                
+                  <h3 class="order">2- Anın Tadını Çıkarın</h3>
+                  <p class="colorful">Yukarıda da bahsettiğimiz gibi sürekli düşünme halindeyiz ve bu olay film-dizi izlerken, ders çalışırken, iş yaparken, kitap okurken bize bazı zamanlarda engel olur.
+                   Mesela dizi izlerken, “Şuan ders çalışmam gerekiyor sınavlar çok yaklaştı, yetiştirmem gereken işler var, projelerin teslim tarihi geçecek,”  gibi düşünceleri acilen bırakın. Bu düşünce sizin odağınızı bozar. Böyle düşünceler okuduğunuz kitaba veya izlediğiniz filme odaklanmanızı engeller. Ayrıca onlar için ayırdığınız her vakit her iki yönden de kayıp sayılır. Çünkü o saatler içinde ne filmin farkına vararak izlemişsinizdir ne de ders çalışmışsınızdır.</p>
+                  
+                   <h3 class="order">3 - Sağlıklı Atıştırmalıklar Seçin</h3>
+                   <p class="colorful">Bu maddeyi ders çalışmaya ve işlerini yapmaya odaklanmak isteyenler için öneriyoruz. Özellikle ders çalışırken paket gıdalar tüketmek zararı olabilir. Bu paket gıdaların içindeki eklenti şekerler bilindiği üzere tokluk hissi yaratmaz ve böylece siz sürekli bir şeyler yeme ihtiyacı hissedersiniz ki açlık hissi odağı bozan ilk etkenlerden birisidir. Paket gıdalar yerine yanınızda meyve veya kuruyemiş tüketmeyi tercih edebilirsiniz.
+                   Sonuç olarak, yukarıda sayılan önerilerden en az birisini bile deneyerek yoğun bir odak yakalayabilirsiniz. Bunların haricinde, odağınızı bozan unsurları saptayıp bunlardan kendi yöntemlerinizle kurtulmayı deneyebilirsiniz.</p>
+                   </div>
+           </div>
+       </section>
+
+   
+   
+   
+   
+   
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+    <script src="odev.js"></script>
+        
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+    
+</body>
+</html>
