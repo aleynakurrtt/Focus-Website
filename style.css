@@ -1,66 +1,38 @@
-*{  font-family: "Ubuntu", sans-serif;}
-
-body{
-    background-image: url(images/pin-5.jpg);
-    background-position: unset;
-    background-size:cover;
-}
-
-
-.video-container {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-
-}
-.video{
-    z-index: -100000000;
-}
-.video-container video {
-    min-width: 100%;
-    min-height: auto;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    object-fit: cover;
-}
-
-.video-container:after {    
-    content: '';
-    height: 100%;
-    width: 100%;
-    top: 0;
-    left: 0;
-    position: absolute;
-}
-
-.content {  
-    z-index: 1000000;
-    text-align: center;
-    margin-top: 5rem;
- 
-}
-
-.odak{
-   
-    color: rgb(251, 251, 248);
-    position:relative;
+* {
     font-family: "Ubuntu", sans-serif;
-    font-weight: 500;
+}
+
+body {
+    background-image: url(images/pictures.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.intro {
+
+    top: 0;
+    text-align: center;
+}
+
+
+
+.odak {
+
+    color: rgb(11, 12, 12);
+    position: relative;
+    font-family: "Ubuntu";
+    font-optical-sizing: auto;
+    font-weight: 700;
     font-size: 30px;
     margin-right: 30px;
     margin-left: 30px;
-   padding-top: 120px;
-   
+    padding-top: 120px;
+
 }
 
-.together{
-    color: rgb(198, 194, 235);
-    position:relative;
+.together {
+    color: rgb(26, 25, 31);
+    position: relative;
     font-family: "Ubuntu", sans-serif;
     font-weight: 500;
     font-size: 30px;
@@ -68,45 +40,42 @@ body{
     margin-top: 70px;
 }
 
-.yazii{
-        z-index: 1000000;
-        display: inline-block;
-        padding: 50px 30px;
-        background-image: url(images/unnamed.jpg);
-        background-position:center;
-        background-repeat: no-repeat;
-        background-size: 100%;
-        border-radius: 20px;
-        margin-top: 100px;
-        font-family: "Ubuntu", sans-serif;
-        font-weight: 700;
-        font-style: normal;
-        font-size: 40px;
-        color: #575454;
+.yazii {
+
+    display: inline-block;
+    padding: 50px 30px;
+    border: 3px solid rgb(1, 82, 9);
+    border-radius: 20px;
+    margin-top: 50px;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 35px;
+    color: #0b0a0a;
 
 }
 
-.buton{
-    z-index: 1000000;
+.buton {
+
     position: relative;
     margin-top: 1rem;
     bottom: 70px;
     padding: 30px 50px;
-    color: rgb(218, 214, 214);
-    background-color: black;
+    color: rgb(7, 53, 30);
+    background-color: rgba(154, 247, 154, 0.5);
     border-radius: 50px;
-    font-size: 25px;
+    font-size: 35px;
     font-weight: 800;
- 
+
 }
 
-.buton:hover{
-   background-color: rgb(30, 29, 29);
-   color: #e1dada;
-   scale: 1.1;
+.buton:hover {
+    background-color: rgb(9, 47, 15);
+    color: #e1dada;
+    scale: 1.1;
 }
 
-.degisken{
+.degisken {
     color: red;
     font-size: 50px;
     font-weight: 800;
@@ -115,22 +84,24 @@ body{
 
 
 
-.my-container{
-  margin: 70px 50px 0 50px;
- 
- 
+.my-container {
+    margin: 70px 50px 0 50px;
+    border: 3px solid rgb(211, 250, 211);
+    border-radius: 30px;
+    background-color: rgba(215, 243, 215, 0.5);
+    padding: 10px;
 
 }
 
-.mcgill{
+.mcgill {
     text-align: center;
     font-style: normal;
-    color: #eae3e3;
-    font-weight: 500;
-    font-size: 15px;  
+    color: #1e1c1c;
+    font-weight: 700;
+    font-size: 15px;
 }
 
-.concentration{
+.concentration {
     color: rgb(200, 140, 140);
     margin-bottom: 2rem;
     font-weight: 500;
@@ -138,46 +109,45 @@ body{
 }
 
 
-.order{
-    color:peru;
+.order {
+    color: peru;
     margin-bottom: 1rem;
 }
 
-.colorful{
+.colorful {
     color: rgb(222, 215, 215);
     margin-bottom: 2rem;
 }
 
 
-.solution{
-    color: rgb(74, 77, 77);
+.solution {
+    color: rgb(1, 22, 7);
     margin-bottom: 1rem;
 
 }
 
-.picture{
-  margin-top: 160px;
-  margin-left: 20px;
-  border-radius: 50px;
+.picture {
+    margin-top: 160px;
+    margin-left: 20px;
+    border-radius: 50px;
 }
 
-.accordion-item{
+.accordion-item {
     margin-top: 3rem;
- 
+
 }
 
-.accordion-button{
+.accordion-button {
     color: rgb(32, 32, 31);
-    background-color: rgba(47, 27, 112,0.3);
+    background-color: rgba(73, 202, 116, 0.3);
 }
 
-.accordion-body{
-    background-image: url(images/pin-2.jpg);
-    background-position: center;
-    color: #fefdfd;
+.accordion-body {
+
+    color: #1c1b1b;
 }
 
-.musics-1{
+.musics-1 {
     width: 200px;
     height: 200px;
     border-radius: 50%;
